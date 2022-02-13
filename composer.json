@@ -1,0 +1,34 @@
+{
+    "name": "aedart/athenaeum-events",
+    "description": "Offers a way to register event listeners and subscribers via configuration",
+    "keywords": ["Athenaeum", "Events", "Listeners", "Subscribers"],
+    "homepage": "https://aedart.github.io/athenaeum/",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alin Eugen Deac",
+            "email": "aedart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "aedart/athenaeum-support": "6.x-dev",
+        "illuminate/events": "v9.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aedart\\Events\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
